@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Santas-List")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c19183f8b3ab5ba2b233c725c1c3ffdd4c5593d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b21898b5db840a4f6fc4313e600c771aeb2c13b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Santas-List")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Santas-List")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
