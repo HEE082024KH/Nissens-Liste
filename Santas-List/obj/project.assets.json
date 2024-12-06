@@ -8,32 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ericl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hee08\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ericl\\Desktop\\Prosjekter\\Nissens Liste\\Santas-List\\Santas-List.csproj",
+      "projectUniqueName": "C:\\Users\\hee08\\Desktop\\Kodehode\\Backend\\C#\\1 Projects\\Nissens-liste\\Nissens-Liste\\Santas-List\\Santas-List.csproj",
       "projectName": "Santas-List",
-      "projectPath": "C:\\Users\\ericl\\Desktop\\Prosjekter\\Nissens Liste\\Santas-List\\Santas-List.csproj",
-      "packagesPath": "C:\\Users\\ericl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ericl\\Desktop\\Prosjekter\\Nissens Liste\\Santas-List\\obj\\",
+      "projectPath": "C:\\Users\\hee08\\Desktop\\Kodehode\\Backend\\C#\\1 Projects\\Nissens-liste\\Nissens-Liste\\Santas-List\\Santas-List.csproj",
+      "packagesPath": "C:\\Users\\hee08\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hee08\\Desktop\\Kodehode\\Backend\\C#\\1 Projects\\Nissens-liste\\Nissens-Liste\\Santas-List\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ericl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\hee08\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
