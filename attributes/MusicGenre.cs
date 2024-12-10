@@ -1,6 +1,8 @@
-public class MusicGenre
+namespace SantasListGenerator.Attributes
 {
-    Bools bools;
+    public class MusicGenre
+    {
+        Bools bools;
     switch (MusicGenre)
     {
         case "Hip Hop":
@@ -157,4 +159,5 @@ public class MusicGenre
         Console.WriteLine("Music genre not recognized");
         break;
     }
+}
 }
