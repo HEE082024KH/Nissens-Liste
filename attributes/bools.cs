@@ -15,21 +15,21 @@ public class Bools
       break;
   }
 
-switch (donatesToCharity)
-{
-  case true:
-    naughtyOrNice = +20
+  switch (donatesToCharity)
+  {
+    case true:
+      naughtyOrNice = +20
       break;
-  case false:
-    break;
-}
+    case false:
+      break;
+  }
 
-switch (washesHands)
-{
-  case true:
-    break;
-  case false:
-    naughtyOrNice = -20
+  switch (washesHands)
+  {
+    case true:
       break;
-}
+    case false:
+      naughtyOrNice = -20
+      break;
+  }
 }
