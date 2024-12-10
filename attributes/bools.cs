@@ -10,7 +10,7 @@ namespace SantasListGenerator.Attributes
 
     //switch must be inside a method, constructor, or property
 
-    public ToiletPaper()
+    public void ToiletPaper()
     {
       switch (toiletPaperOutward)
       {
@@ -23,7 +23,7 @@ namespace SantasListGenerator.Attributes
       }
     }
 
-    public Charity()
+    public void Charity()
     {
       switch (donatesToCharity)
       {
@@ -35,7 +35,7 @@ namespace SantasListGenerator.Attributes
       }
     }
 
-    public WashHands()
+    public void WashHands()
     {
       switch (washesHands)
       {
