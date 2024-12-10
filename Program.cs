@@ -18,7 +18,7 @@ class Program
         string jsonString = File.ReadAllText(jsonFilePath);
 
         // Step 2: Deserialize JSON into an object
-        Person? person = JsonSerializer.Deserialize<Person>(jsonString);
+        List<Person>? people = JsonSerializer.Deserialize<List<Person>>(jsonString);
 
         // Step 3: Initialize a variable to hold the "naughty or nice" score
         bools.naughtyOrNice = 0;
