@@ -5,7 +5,7 @@ namespace SantasListGenerator.Attributes
         public void EvaluateGenre(string genre)
         {
             Bools bools;
-            switch (MusicGenre)
+            switch (genre)
             {
                 case "Hip Hop":
                     bools.naughtyOrNice += 10;
