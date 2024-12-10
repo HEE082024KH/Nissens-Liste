@@ -2,7 +2,7 @@ namespace SantasListGenerator.Attributes
 {
   public class Bools
   {
-    
+
     public bool toiletPaperOutward;
     public bool donatesToCharity;
     public bool washesHands;
@@ -10,32 +10,41 @@ namespace SantasListGenerator.Attributes
 
     //switch must be inside a method, constructor, or property
 
-    switch (toiletPaperOutward)
+    public ToiletPaper()
     {
-      case true:
-        naughtyOrNice += 10;
-        break;
-      case false:
-        naughtyOrNice -= 10;
-        break;
+      switch (toiletPaperOutward)
+      {
+        case true:
+          naughtyOrNice += 10;
+          break;
+        case false:
+          naughtyOrNice -= 10;
+          break;
+      }
     }
 
-    switch (donatesToCharity)
+    public Charity()
     {
-      case true:
-        naughtyOrNice += 20;
-        break;
-      case false:
-        break;
+      switch (donatesToCharity)
+      {
+        case true:
+          naughtyOrNice += 20;
+          break;
+        case false:
+          break;
+      }
     }
 
-    switch (washesHands)
+    public WashHands()
     {
-      case true:
-        break;
-      case false:
-        naughtyOrNice += 20;
-        break;
+      switch (washesHands)
+      {
+        case true:
+          break;
+        case false:
+          naughtyOrNice += 20;
+          break;
+      }
     }
   }
 }
