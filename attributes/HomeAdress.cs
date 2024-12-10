@@ -1,4 +1,4 @@
-namespace SantasListGenerator.Address
+namespace SantasListGenerator.Attributes
 {
     public class HomeAdress
     {
