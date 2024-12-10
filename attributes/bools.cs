@@ -21,7 +21,7 @@ public class Bools
       naughtyOrNice = +20
       break;
     case false:
-    break;
+      break;
   }
 
   switch (washesHands)
