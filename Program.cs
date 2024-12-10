@@ -22,7 +22,13 @@ class Program
 
         // Step 3: Initialize a variable to hold the "naughty or nice" score
         bools.naughtyOrNice = 0;
-
-        Console.WriteLine($"Naughty or Nice score: {bools.naughtyOrNice}");
+        Console.WriteLine(people); //test to see if it writes out the attributes
+        if (people != null)
+        {
+            foreach (var person in people)
+            {
+                Console.WriteLine($"Name: {person.name}, Address: {person.homeAdress}");
+            }
+        }
     }
 }

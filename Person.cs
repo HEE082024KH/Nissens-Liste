@@ -1,11 +1,11 @@
 public class Person
 {
-  public string? Id { get; }
-  public string? Name { get; }
-  public bool? ToiletPaperOutward { get; }
-  public bool? DonatesToCharity { get; }
-  public bool? WashesHands { get; }
-  public string[]? MusicGenres { get; }
-  public string? HomeAdress { get; }
-  public string? CarModel { get; }
+  public string? id { get; set;}
+  public string? name { get; set; }
+  public bool? toiletPaperOutward { get; set; }
+  public bool? donatesToCharity { get; set; }
+  public bool? washesHands { get; set;}
+  public string[]? musicGenres { get; set; }
+  public string? homeAdress { get; set;}
+  public string? carModel { get; set;}
 }
