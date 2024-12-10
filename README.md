@@ -1,5 +1,6 @@
 ## Santas list - group project
-A school project where we create a list of 100 people with different characteristics.
+
+A school project where we got provided with a list of 100 people with different characteristics.
 We use these characteristics to assign each person a "score" and determine whether they belong on the Nice or Naughty list.
 
 People on the Nice list will be assigned an elf who will give them a gift based on the elfs speciality.
