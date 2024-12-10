@@ -1,7 +1,7 @@
 namespace SantasListGenerator.Attributes
 {
     public class HomeAdress
-    {
+    {//tests
         Bools bools = new();
         public void godBadAdress(string homeAdress)
         {
