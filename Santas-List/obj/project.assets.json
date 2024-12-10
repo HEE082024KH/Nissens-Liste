@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\amali\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\amali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amali\\Documents\\Code\\Nissens-Liste\\Santas-List\\Santas-List.csproj",
+      "projectUniqueName": "C:\\Users\\amali\\OneDrive\\Documents\\Code\\Nissens-Liste-2\\Santas-List\\Santas-List.csproj",
       "projectName": "Santas-List",
-      "projectPath": "C:\\Users\\amali\\Documents\\Code\\Nissens-Liste\\Santas-List\\Santas-List.csproj",
+      "projectPath": "C:\\Users\\amali\\OneDrive\\Documents\\Code\\Nissens-Liste-2\\Santas-List\\Santas-List.csproj",
       "packagesPath": "C:\\Users\\amali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amali\\Documents\\Code\\Nissens-Liste\\Santas-List\\obj\\",
+      "outputPath": "C:\\Users\\amali\\OneDrive\\Documents\\Code\\Nissens-Liste-2\\Santas-List\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\amali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
