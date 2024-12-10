@@ -2,6 +2,7 @@ namespace SantasListGenerator.Attributes
 {
     public class HomeAdress
     {
+        Bools bools = new();
         public void godBadAdress(string homeAdress)
         {
             switch (homeAdress)
@@ -41,7 +42,7 @@ namespace SantasListGenerator.Attributes
                 case "Kirkegaten":
                 case "Klosteret":
                 case "Kong Oscars gate":
-                    naughtyOrNice += 10;
+                    bools.naughtyOrNice += 10;
                     break;
                 //bad neighbourhoods \/
                 case "Aad Gjelles gate":
@@ -60,7 +61,7 @@ namespace SantasListGenerator.Attributes
                 case "Fabrikkgaten":
                 case "Fjøsangerveien":
                 case "Hollendergaten":
-                    naughtyOrNice -= 10;
+                    bools.naughtyOrNice -= 10;
                     break;
             }
         }

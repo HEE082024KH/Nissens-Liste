@@ -2,9 +2,9 @@ namespace SantasListGenerator.Attributes
 {
     public class MusicGenre
     {
+        Bools bools = new();
         public void EvaluateGenre(string genre)
         {
-            Bools bools;
             switch (genre)
             {
                 case "Hip Hop":
