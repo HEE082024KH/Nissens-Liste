@@ -39,7 +39,13 @@ class Program
         {
             foreach (var person in people)
             {
-
+                homeAdress.godBadAdress(person.homeAdress);
+                bools.WashesHands();
+                bools.ToiletPaper();
+                bools.Charity();
+                carModels.Cars(person.carModel);
+                musicGenre.EvaluateGenre(string.Join(", ", person.musicGenres));
+                Console.WriteLine(bools.naughtyOrNice);
             }
         }
     }

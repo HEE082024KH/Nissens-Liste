@@ -3,7 +3,7 @@ namespace SantasListGenerator.Attributes
   public class CarModels
   {
     Bools bools = new();
-    public void carModels(string models)
+    public void Cars(string models)
     {
       switch (models)
       {

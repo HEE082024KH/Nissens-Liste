@@ -35,7 +35,7 @@ namespace SantasListGenerator.Attributes
       }
     }
 
-    public void WashHands()
+    public void WashesHands()
     {
       switch (washesHands)
       {
