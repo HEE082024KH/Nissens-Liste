@@ -28,7 +28,7 @@ class Program
         {
             foreach (var person in people)
             {
-                Console.WriteLine($"Name: {person.name}, Address: {person.homeAdress}, Washes Hands: {person.washesHands}, Toilet Paper Out or In: {person.toiletPaperOutward}, Donates to charity: {person.donatesToCharity}, Car Model: {person.carModel}, Music Genres: {person.musicGenres} ");
+                Console.WriteLine($"- Name: {person.name}, Address: {person.homeAdress}, Washes Hands: {person.washesHands}, Toilet Paper Out or In: {person.toiletPaperOutward}, Donates to charity: {person.donatesToCharity},\n Car Model: {person.carModel}, Music Genres: {string.Join(", ", person.musicGenres)} ");
             }
         }
     }
