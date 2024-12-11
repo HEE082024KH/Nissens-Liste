@@ -48,5 +48,28 @@ class Program
                 Console.WriteLine(bools.naughtyOrNice);
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+        if (people != null)
+        {
+            foreach (var person in people)
+            {
+                bools.resetScore();
+
+                homeAdress.godBadAdress(person.homeAdress ?? "");
+                carModels.Cars(person.carModel ?? "");
+                musicGenre.EvaluateGenre(string.Join(", ", person.musicGenres ?? new string[] { }));
+            }
+        }
     }
+    
 }

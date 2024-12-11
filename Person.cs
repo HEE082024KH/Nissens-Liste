@@ -8,4 +8,6 @@ public class Person
   public string[]? musicGenres { get; set; }
   public string? homeAdress { get; set;}
   public string? carModel { get; set;}
+
+  public int naughtyOrNiceScore { get; set; }
 }

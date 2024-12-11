@@ -6,9 +6,12 @@ namespace SantasListGenerator.Attributes
     public bool toiletPaperOutward;
     public bool donatesToCharity;
     public bool washesHands;
-    public int naughtyOrNice;
+    public int naughtyOrNice {get; set;} = 0;
 
-    //switch must be inside a method, constructor, or property
+    public void resetScore()
+    {
+      naughtyOrNice = 0;
+    }
 
     public void ToiletPaper()
     {
