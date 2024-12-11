@@ -1,7 +1,6 @@
 using SantasListGenerator.Attributes;
 
 namespace SantasListGenerator;
-
 public enum ElfSpecialty
 {
     WoodWorking,
@@ -23,9 +22,10 @@ public class Elf
     }
 }
 
-public static class SantasListManager
+public class SantasListManager
 {
-    public static void EvaluateAndAssign(List<Person> people)
+    Bools bools = new();
+    public void EvaluateAndAssign(List<Person> people)
     {
         // Evaluate users and sort into good and bad lists
         var goodList = new List<Person>();
@@ -33,7 +33,7 @@ public static class SantasListManager
 
         foreach (var person in people)
         {
-            int totalScore = Bools.CalculateNaughtyOrNice(person); // Assuming static method in Bools
+            int totalScore = bools.naughtyOrNice; // Assuming static method in Bools
             if (totalScore >= 0)
             {
                 goodList.Add(person);
