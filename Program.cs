@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -43,7 +43,10 @@ class Program
             {
                 bools.resetScore();//making sure the score starts at 0 for each person
 
-                homeAdress.godBadAdress(person.homeAdress);
+                if (person.homeAdress != null)
+                {
+                    homeAdress.godBadAdress(person.homeAdress);
+                }
                 bools.WashesHands();
                 bools.ToiletPaper();
                 bools.Charity();
