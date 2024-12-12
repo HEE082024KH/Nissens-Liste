@@ -69,6 +69,9 @@ class Program
             }
         }
         var manager = new SantasListManager();
-        manager.EvaluateAndAssign(people);
+        if (people != null)
+        {
+            manager.EvaluateAndAssign(people);
+        }
     }
 }
