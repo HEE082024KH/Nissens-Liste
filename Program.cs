@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -29,7 +29,10 @@ class Program
             Console.WriteLine("No people found in Json file");
             foreach (var person in people)
             {
-                person.homeAdress = new string(person.homeAdress.Where(c => !char.IsDigit(c)).ToArray());//removing numbers from homeadress 
+                if (person.homeAdress != null)
+                {
+                    person.homeAdress = new string(person.homeAdress.Where(c => !char.IsDigit(c)).ToArray());//removing numbers from homeadress 
+                }
             }
         }
 
