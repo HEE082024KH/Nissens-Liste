@@ -6,7 +6,7 @@ namespace SantasListGenerator.Attributes
     public bool toiletPaperOutward;
     public bool donatesToCharity;
     public bool washesHands;
-    public int naughtyOrNice {get; set;} = 0;
+    public int naughtyOrNice { get; set; } = 0;
 
     public void resetScore()
     {
@@ -43,9 +43,10 @@ namespace SantasListGenerator.Attributes
       switch (washesHands)
       {
         case true:
+          naughtyOrNice += 10;
           break;
         case false:
-          naughtyOrNice += 20;
+          naughtyOrNice -= 20;
           break;
       }
     }
