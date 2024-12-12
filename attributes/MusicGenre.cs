@@ -3,6 +3,14 @@ namespace SantasListGenerator.Attributes
     public class MusicGenre
     {
         Bools bools = new();
+
+        public void ListGenres(List<string> genres)
+        {
+            foreach (var genre in genres)
+            {
+                EvaluateGenre(genre);
+            }
+        }
         public void EvaluateGenre(string genre)
         {
             switch (genre)
