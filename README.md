@@ -9,14 +9,14 @@ People on the Bad list will receive coal and have a 10% chance of being eaten by
 
 ## Group
 
-[Amaliebra](https://github.com/Amaliebra)
-[HEE082024KH](https://github.com/HEE082024KH)
-[MissKluck](https://github.com/MissKluck)
+[Amaliebra](https://github.com/Amaliebra)<br>
+[HEE082024KH](https://github.com/HEE082024KH)<br>
+[MissKluck](https://github.com/MissKluck)<br>
 [RiFe202](https://github.com/RiFe202)
 
 ## How the program works
 
 Switch gives scores
 `toiletPaperOutward`
-`true` -> +10 to `naughtyorNice` score.
-`false`-> -10 to `naughtyorNice` score and so on.
+`true` -> +10 to `naughtyorNice` score.<br>
+`false`-> -10 to `naughtyorNice` score and so on.<br>
