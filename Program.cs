@@ -52,7 +52,10 @@ class Program
             {
                 bools.resetScore();//making sure the score starts at 0 for each person
 
-                homeAdress.godBadAdress(person.homeAdress);
+                if (person.homeAdress != null)
+                {
+                    homeAdress.godBadAdress(person.homeAdress);
+                }
                 bools.WashesHands();
                 bools.ToiletPaper();
                 bools.Charity();
@@ -71,10 +74,13 @@ class Program
 
                 person.naughtyOrNiceScore = bools.naughtyOrNice;
 
-                Console.WriteLine($"Name: {person.name}, Address: {person.washesHands}, Score: {person.naughtyOrNiceScore}");
+
             }
         }
         var manager = new SantasListManager();
-        manager.EvaluateAndAssign(people);
+        if (people != null)
+        {
+            manager.EvaluateAndAssign(people);
+        }
     }
 }

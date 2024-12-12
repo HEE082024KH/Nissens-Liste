@@ -34,7 +34,7 @@ public class SantasListManager
         foreach (var person in people)
         {
             int totalScore = person.naughtyOrNiceScore; // Assuming static method in Bools
-            Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
+            // Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
 
             if (person.naughtyOrNiceScore >= 0)
             {
@@ -77,6 +77,7 @@ public class SantasListManager
             bools.ToiletPaper();
             bools.Charity();
             Console.WriteLine($"\n{person.id}\n{person.name}\n{person.toiletPaperOutward}\n{person.donatesToCharity}\n{person.washesHands}\n{person.carModel}\n{person.homeAdress}\n{string.Join(", ", person.musicGenres)}\n{elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}\n");
+            //Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}. ({person.naughtyOrNiceScore})");
         }
 
         Console.WriteLine("\nBad List:");
@@ -85,11 +86,11 @@ public class SantasListManager
         {
             if (random.Next(0, 10) == 0)
             {
-                Console.WriteLine($"{person.name} is visited by Gryla and eaten!{person.naughtyOrNiceScore}");
+                Console.WriteLine($"{person.name} is visited by Gryla and eaten! ({person.naughtyOrNiceScore})");
             }
             else
             {
-                Console.WriteLine($"{person.name} receives coal. {person.naughtyOrNiceScore}");
+                Console.WriteLine($"{person.name} receives coal. ({person.naughtyOrNiceScore})");
             }
         }
     }
