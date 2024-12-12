@@ -6,7 +6,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["Hip Hop", "Folk", "Dancehall"],
-    "homeAdress": "Bredsg\u00E5rden 78",
+    "homeAdress": "Bredsgården 78",
     "carModel": "Volkswagen Jetta"
   },
   {
@@ -86,7 +86,7 @@
     "donatesToCharity": false,
     "washesHands": false,
     "musicGenres": ["Ska", "Trance", "Punk"],
-    "homeAdress": "Damsg\u00E5rdsveien 190",
+    "homeAdress": "Damsgårdsveien 190",
     "carModel": "Kia Optima"
   },
   {
@@ -95,8 +95,8 @@
     "toiletPaperOutward": true,
     "donatesToCharity": false,
     "washesHands": false,
-    "musicGenres": ["Soul", "Flamenco", "R\u0026B"],
-    "homeAdress": "B\u00F8hmergaten 168",
+    "musicGenres": ["Soul", "Flamenco", "R&B"],
+    "homeAdress": "Bøhmergaten 168",
     "carModel": "Ford Fiesta"
   },
   {
@@ -185,7 +185,7 @@
     "toiletPaperOutward": false,
     "donatesToCharity": false,
     "washesHands": false,
-    "musicGenres": ["R\u0026B", "Synthpop", "Industrial"],
+    "musicGenres": ["R&B", "Synthpop", "Industrial"],
     "homeAdress": "Adolph Bergs vei 135",
     "carModel": "Subaru BRZ"
   },
@@ -246,7 +246,7 @@
     "donatesToCharity": false,
     "washesHands": false,
     "musicGenres": ["Funk", "Gospel", "Industrial"],
-    "homeAdress": "Bjerreg\u00E5rds gate 75",
+    "homeAdress": "Bjerregårds gate 75",
     "carModel": "Nissan Altima"
   },
   {
@@ -266,7 +266,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["Classical", "Reggaeton", "Techno"],
-    "homeAdress": "Asbj\u00F8rnsens gate 167",
+    "homeAdress": "Asbjørnsens gate 167",
     "carModel": "Hyundai Veloster"
   },
   {
@@ -286,7 +286,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["Zouk", "Folk", "Electronic"],
-    "homeAdress": "Bj\u00F8rnsons gate 64",
+    "homeAdress": "Bjørnsons gate 64",
     "carModel": "Mazda MX-5 Miata"
   },
   {
@@ -296,7 +296,7 @@
     "donatesToCharity": true,
     "washesHands": true,
     "musicGenres": ["House", "Metal", "Bossa Nova"],
-    "homeAdress": "Finneg\u00E5rdsgaten 88",
+    "homeAdress": "Finnegårdsgaten 88",
     "carModel": "Toyota Camry"
   },
   {
@@ -445,7 +445,7 @@
     "toiletPaperOutward": false,
     "donatesToCharity": true,
     "washesHands": false,
-    "musicGenres": ["Jazz", "Post-Punk", "R\u0026B"],
+    "musicGenres": ["Jazz", "Post-Punk", "R&B"],
     "homeAdress": "Fabrikkgaten 116",
     "carModel": "BMW 3 Series"
   },
@@ -456,7 +456,7 @@
     "donatesToCharity": false,
     "washesHands": true,
     "musicGenres": ["Country", "Grunge", "Bluegrass"],
-    "homeAdress": "Breist\u00F8len 169",
+    "homeAdress": "Breistølen 169",
     "carModel": "Mercedes-Benz C-Class"
   },
   {
@@ -536,7 +536,7 @@
     "donatesToCharity": false,
     "washesHands": false,
     "musicGenres": ["House", "Swing", "Electro"],
-    "homeAdress": "Fj\u00F8sangerveien 140",
+    "homeAdress": "Fjøsangerveien 140",
     "carModel": "Toyota Camry"
   },
   {
@@ -546,7 +546,7 @@
     "donatesToCharity": false,
     "washesHands": true,
     "musicGenres": ["Synthpop", "Pop", "Techno"],
-    "homeAdress": "Asbj\u00F8rnsens gate 48",
+    "homeAdress": "Asbjærnsens gate 48",
     "carModel": "BMW 5 Series"
   },
   {
@@ -655,7 +655,7 @@
     "toiletPaperOutward": true,
     "donatesToCharity": true,
     "washesHands": false,
-    "musicGenres": ["R\u0026B", "Metal", "Dubstep"],
+    "musicGenres": ["R&B", "Metal", "Dubstep"],
     "homeAdress": "C. Sundts gate 107",
     "carModel": "Kia Stinger"
   },
@@ -686,7 +686,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["Blues", "Trance", "Electro"],
-    "homeAdress": "B\u00F8hmergaten 64",
+    "homeAdress": "Bøhmergaten 64",
     "carModel": "Toyota Corolla"
   },
   {
@@ -726,7 +726,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["House", "Swing", "Post-Punk"],
-    "homeAdress": "Bj\u00F8rnsons gate 82",
+    "homeAdress": "Bjørnsons gate 82",
     "carModel": "Volvo S60"
   },
   {
@@ -756,7 +756,7 @@
     "donatesToCharity": true,
     "washesHands": false,
     "musicGenres": ["Reggaeton", "Gospel", "Post-Punk"],
-    "homeAdress": "Bj\u00F8rnsons gate 119",
+    "homeAdress": "Bjørnsons gate 119",
     "carModel": "Nissan Altima"
   },
   {
@@ -776,7 +776,7 @@
     "donatesToCharity": false,
     "washesHands": false,
     "musicGenres": ["Hip Hop", "Bluegrass", "Dubstep"],
-    "homeAdress": "Damsg\u00E5rdsveien 44",
+    "homeAdress": "Damsgårdsveien 44",
     "carModel": "Toyota Camry"
   },
   {
@@ -786,7 +786,7 @@
     "donatesToCharity": false,
     "washesHands": false,
     "musicGenres": ["Emo", "Trip-Hop", "Dubstep"],
-    "homeAdress": "Damsg\u00E5rdsveien 178",
+    "homeAdress": "Damsgårdsveien 178",
     "carModel": "Jaguar XF"
   },
   {
@@ -855,7 +855,7 @@
     "toiletPaperOutward": false,
     "donatesToCharity": false,
     "washesHands": false,
-    "musicGenres": ["Gospel", "Jazz", "R\u0026B"],
+    "musicGenres": ["Gospel", "Jazz", "R&B"],
     "homeAdress": "Dreggsallmenningen 160",
     "carModel": "Mercedes-Benz SLK"
   },
@@ -865,7 +865,7 @@
     "toiletPaperOutward": true,
     "donatesToCharity": false,
     "washesHands": false,
-    "musicGenres": ["House", "R\u0026B", "Swing"],
+    "musicGenres": ["House", "R&B", "Swing"],
     "homeAdress": "Arne Garborgs gate 51",
     "carModel": "Kia Stinger"
   },
@@ -925,7 +925,7 @@
     "toiletPaperOutward": false,
     "donatesToCharity": true,
     "washesHands": false,
-    "musicGenres": ["R\u0026B", "Techno", "Disco"],
+    "musicGenres": ["R&B", "Techno", "Disco"],
     "homeAdress": "C. Sundts gate 54",
     "carModel": "Ford Fusion"
   },
