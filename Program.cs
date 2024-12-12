@@ -37,7 +37,7 @@ class Program
         }
 
         // Step 3: Initialize a variable to hold the "naughty or nice" score
-        bools.naughtyOrNice = 0;
+        // bools.naughtyOrNice = 0;
 
 
         //test to see if it writes out the attributes
@@ -49,20 +49,26 @@ class Program
         //     }
         // }
 
+
         if (people != null)
         {
             foreach (var person in people) //loops over each Person in people list
             {
                 bools.resetScore();//making sure the score starts at 0 for each person
+                bools.toiletPaperOutward = person.toiletPaperOutward ?? false; //if toiletpaperotward is null = false
+                bools.donatesToCharity = person.donatesToCharity ?? false;
+                bools.washesHands = person.washesHands ?? false;
 
                 if (person.homeAdress != null)
                 {
                     homeAdress.godBadAdress(person.homeAdress);
                 }
                 bools.WashesHands();
+
                 bools.ToiletPaper();
                 bools.Charity();
                 carModels.Cars(person.carModel ?? ""); //checks carmodel of person, if null it uses empty string
+
                 if (person.musicGenres != null)
                 {
                     foreach (var genre in person.musicGenres) //goes through each genre
@@ -71,15 +77,12 @@ class Program
                     }
                 }
 
-                bools.toiletPaperOutward = person.toiletPaperOutward ?? false; //if toiletpaperotward is null = false
-                bools.donatesToCharity = person.donatesToCharity ?? false;
-                bools.washesHands = person.washesHands ?? false;
-
                 person.naughtyOrNiceScore = bools.naughtyOrNice;
 
 
             }
         }
+
         var manager = new SantasListManager();
         if (people != null)
         {
