@@ -31,20 +31,20 @@ public class SantasListManager
         var goodList = people.Where(p => p.naughtyOrNiceScore >= 15).ToList(); //p = person in people list. 15 or higher = GOOD LIST
         var badList = people.Where(p => p.naughtyOrNiceScore < 15).ToList(); //if score less than 15. BAD LIST
 
-        foreach (var person in people)
-        {
-            int totalScore = person.naughtyOrNiceScore; // Assuming static method in Bools
-            // Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
+        // foreach (var person in people)
+        // {
+        //     int totalScore = person.naughtyOrNiceScore; // Assuming static method in Bools
+        //     // Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
 
-            if (person.naughtyOrNiceScore >= 0)
-            {
-                goodList.Add(person);
-            }
-            else
-            {
-                badList.Add(person);
-            }
-        }
+        //     if (person.naughtyOrNiceScore >= 0)
+        //     {
+        //         goodList.Add(person);
+        //     }
+        //     else
+        //     {
+        //         badList.Add(person);
+        //     }
+        // }
 
         // Assign elves and gifts to the good list
         var elves = new List<Elf>
