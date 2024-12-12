@@ -43,9 +43,10 @@ namespace SantasListGenerator.Attributes
       switch (washesHands)
       {
         case true:
-          naughtyOrNice += 20;
+          naughtyOrNice += 10;
           break;
         case false:
+          naughtyOrNice -= 20;
           break;
       }
     }
