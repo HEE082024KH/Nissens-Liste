@@ -24,6 +24,15 @@ class Program
         // Step 2: Deserialize JSON into an object
         List<Person>? people = JsonSerializer.Deserialize<List<Person>>(jsonString);
 
+        if (people != null)
+        {
+            Console.WriteLine("No people found in Json file");
+            foreach (var person in people)
+            {
+                person.homeAdress = new string(person.homeAdress.Where(c => !char.IsDigit(c)).ToArray());//removing numbers from homeadress 
+            }
+        }
+
         // Step 3: Initialize a variable to hold the "naughty or nice" score
         bools.naughtyOrNice = 0;
 

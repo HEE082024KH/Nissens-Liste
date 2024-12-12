@@ -71,7 +71,12 @@ public class SantasListManager
             var person = goodList[i];
             var elf = elves[i % elves.Count];
             var gift = gifts[elf.Specialty];
-            Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}");
+            // Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}");
+            //test test test test \/
+            bools.WashesHands();
+            bools.ToiletPaper();
+            bools.Charity();
+            Console.WriteLine($"\n{person.id}\n{person.name}\n{person.toiletPaperOutward}\n{person.donatesToCharity}\n{person.washesHands}\n{person.carModel}\n{person.homeAdress}\n{string.Join(", ", person.musicGenres)}\n{elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}\n");
         }
 
         Console.WriteLine("\nBad List:");
