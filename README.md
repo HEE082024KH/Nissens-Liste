@@ -16,7 +16,7 @@ People on the Bad list will receive coal and have a 10% chance of being eaten by
 
 ## How the program works
 
-Switch gives scores
-`toiletPaperOutward`
+Switch gives scores<br>
+`toiletPaperOutward`<br>
 `true` -> +10 to `naughtyorNice` score.<br>
 `false`-> -10 to `naughtyorNice` score and so on.<br>
