@@ -28,13 +28,15 @@ public class SantasListManager
     public void EvaluateAndAssign(List<Person> people)
     {
         // Evaluate users and sort into good and bad lists
-        var goodList = new List<Person>();
-        var badList = new List<Person>();
+        var goodList = people.Where(p => p.naughtyOrNiceScore >= 0).ToList(); //p = person in people list. 0 or higher = GOOD LIST
+        var badList = people.Where(p => p.naughtyOrNiceScore < 0).ToList(); //if score less than 0. BAD LIST
 
         foreach (var person in people)
         {
-            int totalScore = bools.naughtyOrNice; // Assuming static method in Bools
-            if (totalScore >= 0)
+            int totalScore = person.naughtyOrNiceScore; // Assuming static method in Bools
+            Console.WriteLine($"Evaluating {person.name} with score: {totalScore}");
+
+            if (person.naughtyOrNiceScore >= 0)
             {
                 goodList.Add(person);
             }
@@ -69,20 +71,20 @@ public class SantasListManager
             var person = goodList[i];
             var elf = elves[i % elves.Count];
             var gift = gifts[elf.Specialty];
-            Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}.");
+            Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}");
         }
 
         Console.WriteLine("\nBad List:");
         var random = new Random();
-        foreach (var user in badList)
+        foreach (var person in badList)
         {
             if (random.Next(0, 10) == 0)
             {
-                Console.WriteLine($"{user.name} is visited by Gryla and eaten!");
+                Console.WriteLine($"{person.name} is visited by Gryla and eaten!{person.naughtyOrNiceScore}");
             }
             else
             {
-                Console.WriteLine($"{user.name} receives coal.");
+                Console.WriteLine($"{person.name} receives coal. {person.naughtyOrNiceScore}");
             }
         }
     }
