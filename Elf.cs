@@ -34,7 +34,7 @@ public class SantasListManager
         foreach (var person in people)
         {
             int totalScore = person.naughtyOrNiceScore; // Assuming static method in Bools
-            Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
+            // Console.WriteLine($"Evaluating {person.name} with score: {person.naughtyOrNiceScore}");
 
             if (person.naughtyOrNiceScore >= 0)
             {
