@@ -65,7 +65,7 @@ class Program
 
                 person.naughtyOrNiceScore = bools.naughtyOrNice;
 
-                Console.WriteLine($"Name: {person.name}, Address: {person.washesHands}, Score: {person.naughtyOrNiceScore}");
+                // Console.WriteLine($"Name: {person.name}, Address: {person.washesHands}, Score: {person.naughtyOrNiceScore}");
             }
         }
         var manager = new SantasListManager();
