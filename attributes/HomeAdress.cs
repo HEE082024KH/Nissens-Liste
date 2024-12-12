@@ -2,9 +2,11 @@ namespace SantasListGenerator.Attributes
 {
     public class HomeAdress
     {
+
         Bools bools = new();
         public void godBadAdress(string homeAdress)
         {
+            homeAdress = new string(homeAdress.Where(c => !char.IsDigit(c)).ToArray()); //removing numbers from homeadress
             switch (homeAdress)
             {
                 //Good neighbourhoods \/
