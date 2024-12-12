@@ -18,10 +18,10 @@ namespace SantasListGenerator.Attributes
       switch (toiletPaperOutward)
       {
         case true:
-          naughtyOrNice -= 10;
+          naughtyOrNice += 10;
           break;
         case false:
-          naughtyOrNice += 10;
+          naughtyOrNice -= 10;
           break;
       }
     }
