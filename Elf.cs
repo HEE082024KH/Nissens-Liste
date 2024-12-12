@@ -71,7 +71,7 @@ public class SantasListManager
             var person = goodList[i];
             var elf = elves[i % elves.Count];
             var gift = gifts[elf.Specialty];
-            Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}");
+            Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}. ({person.naughtyOrNiceScore})");
         }
 
         Console.WriteLine("\nBad List:");
@@ -80,11 +80,11 @@ public class SantasListManager
         {
             if (random.Next(0, 10) == 0)
             {
-                Console.WriteLine($"{person.name} is visited by Gryla and eaten!{person.naughtyOrNiceScore}");
+                Console.WriteLine($"{person.name} is visited by Gryla and eaten! ({person.naughtyOrNiceScore})");
             }
             else
             {
-                Console.WriteLine($"{person.name} receives coal. {person.naughtyOrNiceScore}");
+                Console.WriteLine($"{person.name} receives coal. ({person.naughtyOrNiceScore})");
             }
         }
     }
