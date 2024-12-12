@@ -76,7 +76,10 @@ public class SantasListManager
             bools.WashesHands();
             bools.ToiletPaper();
             bools.Charity();
-            Console.WriteLine($"\n{person.id}\n{person.name}\n{person.toiletPaperOutward}\n{person.donatesToCharity}\n{person.washesHands}\n{person.carModel}\n{person.homeAdress}\n{string.Join(", ", person.musicGenres)}\n{elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}\n");
+            if (person.musicGenres != null)
+            {
+                Console.WriteLine($"\n{person.id}\n{person.name}\n{person.toiletPaperOutward}\n{person.donatesToCharity}\n{person.washesHands}\n{person.carModel}\n{person.homeAdress}\n{string.Join(", ", person.musicGenres)}\n{elf.Name}, who gives a {gift}.{person.naughtyOrNiceScore}\n");
+            }
             //Console.WriteLine($"{person.name} is assigned to {elf.Name}, who gives a {gift}. ({person.naughtyOrNiceScore})");
         }
 
