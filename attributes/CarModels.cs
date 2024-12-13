@@ -6,6 +6,14 @@ namespace SantasListGenerator.Attributes
     Person person = new();
     public void Cars()
     {
+    //Console.WriteLine($"Evaluating car model: {person.carModel}");  // Debugging line
+    //
+    //// Check if car model is missing (this is optional now as you confirmed they are loaded correctly)
+    //if (string.IsNullOrEmpty(person.carModel))
+    //{
+    //  Console.WriteLine($"Car model is missing or empty for {person.name}. Skipping evaluation.");
+    //  return;  // Exit if car model is missing
+    //}
       switch (person.carModel)
       {
         case "Volkswagen Jetta":
@@ -123,8 +131,11 @@ namespace SantasListGenerator.Attributes
         case "Honda Accord":
           bools.naughtyOrNice += 5;
           break;
+        //default:
+        //  Console.WriteLine($"Unknown car model: {person.carModel}");
+        //  break;
       }
-      person.naughtyOrNiceScore = bools.naughtyOrNice;
+      //Console.WriteLine($"Final naughtyOrNice score for {person.name}: {person.naughtyOrNiceScore}");
     }
   }
 }

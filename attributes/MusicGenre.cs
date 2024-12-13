@@ -13,6 +13,7 @@ namespace SantasListGenerator.Attributes
         }
         public void EvaluateGenre(string genre)
         {
+            //Console.WriteLine($"Evaluating genre: {genre}");  // Debugging line
             switch (genre)
             {
                 case "Hip Hop":
@@ -165,10 +166,12 @@ namespace SantasListGenerator.Attributes
                 case "Rock":
                     bools.naughtyOrNice += 10;
                     break;
-                default:
-                    Console.WriteLine("Music genre not recognized");
-                    break;
+                //default:
+                //    Console.WriteLine($"Unknown genre: {genre}");
+                //    break;
             }
+            // Debug line to check score
+            //Console.WriteLine($"Updated naughtyOrNice score after genre: {bools.naughtyOrNice}");
         }
     }
 }

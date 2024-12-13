@@ -6,6 +6,12 @@ namespace SantasListGenerator.Attributes
         Bools bools = new();
         public void godBadAdress(string homeAdress)
         {
+            //Console.WriteLine($"Evaluating home address: {homeAdress}");  // Debugging line
+            //if (string.IsNullOrEmpty(homeAdress))
+            //{
+            //Console.WriteLine("Home address is null or empty!");  // Debugging line
+            //return;  // Exit if home address is empty
+            //}
             switch (homeAdress)
             {
                 //Good neighbourhoods \/
@@ -65,6 +71,8 @@ namespace SantasListGenerator.Attributes
                     bools.naughtyOrNice -= 10;
                     break;
             }
+            // Debug line to check score
+            //Console.WriteLine($"Updated naughtyOrNice score after address: {bools.naughtyOrNice}");
         }
     }
 }
