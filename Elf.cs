@@ -25,8 +25,24 @@ public class Elf
 public class SantasListManager
 {
     Bools bools = new();
+
+        // Validate that naughtyOrNiceScore is properly calculated before using it
+    private void ValidateScores(List<Person> people)
+    {
+        foreach (var person in people)
+        {
+            if (person.naughtyOrNiceScore == 0 && (
+                person.musicGenres != null ||
+                !string.IsNullOrEmpty(person.carModel) ||
+                person.homeAdress != null))
+            {
+                Console.WriteLine($"Warning: Score not influenced by attributes for {person.name}.");
+            }
+        }
+    }
     public void EvaluateAndAssign(List<Person> people)
     {
+        ValidateScores(people);
         // Evaluate users and sort into good and bad lists
         var goodList = people.Where(p => p.naughtyOrNiceScore >= 15).ToList(); //p = person in people list. 15 or higher = GOOD LIST
         var badList = people.Where(p => p.naughtyOrNiceScore < 15).ToList(); //if score less than 15. BAD LIST
