@@ -3,9 +3,10 @@ namespace SantasListGenerator.Attributes
   public class CarModels
   {
     Bools bools = new();
-    public void Cars(string models)
+    Person person = new();
+    public void Cars()
     {
-      switch (models)
+      switch (person.carModel)
       {
         case "Volkswagen Jetta":
           bools.naughtyOrNice += 5;
@@ -123,6 +124,7 @@ namespace SantasListGenerator.Attributes
           bools.naughtyOrNice += 5;
           break;
       }
+      person.naughtyOrNiceScore = bools.naughtyOrNice;
     }
   }
 }

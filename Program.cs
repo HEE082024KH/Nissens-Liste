@@ -67,7 +67,7 @@ class Program
 
                 bools.ToiletPaper();
                 bools.Charity();
-                carModels.Cars(person.carModel ?? ""); //checks carmodel of person, if null it uses empty string
+                carModels.Cars(); //checks carmodel of person, if null it uses empty string
 
                 if (person.musicGenres != null)
                 {
