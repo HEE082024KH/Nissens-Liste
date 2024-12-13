@@ -1,3 +1,5 @@
+// Previous code, saved here incase needed for later
+
 // // Define evaluation criteria
 // var goodMusicGenres = new HashSet<string> { "Classical", "Jazz", "Blues", "Folk", "Soul" };
 // var badMusicGenres = new HashSet<string> { "Metal", "Punk", "Industrial", "Grunge", "Hardcore" };

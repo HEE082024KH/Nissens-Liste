@@ -1,3 +1,6 @@
+// Was never used
+
+/*
 namespace SantasListGenerator;
 
 public class Weights
@@ -161,3 +164,4 @@ public class Weights
         { "Kong Oscars gate", 0 },
     };
 }
+*/

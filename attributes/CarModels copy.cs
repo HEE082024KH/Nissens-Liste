@@ -1,4 +1,6 @@
 /*
+A copy for testing the method
+
 namespace SantasListGenerator.Attributes
 {
   public class CarModels2
